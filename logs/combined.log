@@ -8,3 +8,26 @@
 {"level":"info","message":"GET / - IP: ::1","service":"calculator-microservice"}
 {"level":"info","message":"GET / - IP: ::1","service":"calculator-microservice"}
 {"level":"info","message":"GET / - IP: ::1","service":"calculator-microservice"}
+{"level":"info","message":"GET / - IP: ::1","service":"calculator-microservice"}
+{"level":"info","message":"GET / - IP: ::1","service":"calculator-microservice"}
+{"level":"info","message":"Request: GET /add?num1=15&num2=3 from IP: ::1","service":"calculator-microservice"}
+{"level":"info","message":"Addition: 15 + 3 = 18","service":"calculator-microservice"}
+{"level":"info","message":"Request: GET /add?num1=15&num2=3 from IP: ::1","service":"calculator-microservice"}
+{"level":"info","message":"Addition: 15 + 3 = 18","service":"calculator-microservice"}
+{"level":"info","message":"Request: GET /add?num1=15&num2=5 from IP: ::1","service":"calculator-microservice"}
+{"level":"info","message":"Addition: 15 + 5 = 20","service":"calculator-microservice"}
+{"level":"info","message":"Request: GET / from IP: ::1","service":"calculator-microservice"}
+{"level":"info","message":"Request: GET / from IP: ::1","service":"calculator-microservice"}
+{"level":"info","message":"Request: GET / from IP: ::1","service":"calculator-microservice"}
+{"level":"info","message":"Request: GET / from IP: ::1","service":"calculator-microservice"}
+{"level":"info","message":"Request: GET / from IP: ::1","service":"calculator-microservice"}
+{"level":"info","message":"Request: GET / from IP: ::1","service":"calculator-microservice"}
+{"level":"info","message":"Request: GET / from IP: ::1","service":"calculator-microservice"}
+{"level":"info","message":"Request: GET /add?num1=15&num2=5 from IP: ::1","service":"calculator-microservice"}
+{"level":"info","message":"Addition: 15 + 5 = 20","service":"calculator-microservice"}
+{"level":"info","message":"Request: GET /add?subtract1=15&num2=5 from IP: ::1","service":"calculator-microservice"}
+{"level":"error","message":"Addition failed due to invalid inputs","service":"calculator-microservice"}
+{"level":"info","message":"Request: GET /subtract?1=15&num2=5 from IP: ::1","service":"calculator-microservice"}
+{"level":"error","message":"Subtraction failed due to invalid inputs","service":"calculator-microservice"}
+{"level":"info","message":"Request: GET /subtract?num1=15&num2=5 from IP: ::1","service":"calculator-microservice"}
+{"level":"info","message":"Subtraction: 15 - 5 = 10","service":"calculator-microservice"}
