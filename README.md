@@ -39,11 +39,17 @@ Stores all API requests
 Stores only errors
 
 Setting Up Git and Pushing to GitHub 
+
 git init
+
 git add .
+
 git commit -m "Initial commit"
+
 git remote add origin https://github.com/suryav-04/sit737-2025-prac4p.git
+
 git branch -M main
+
 git push -u origin main
 
 
