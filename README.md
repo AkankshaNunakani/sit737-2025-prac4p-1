@@ -26,13 +26,17 @@ http://localhost:3000
 Winston Logger Setup
 - Logging library for tracking operations and errors
   
-API Endpoint Implementation
+API Endpoint Implementation:
 The microservice provides the following endpoints, which accept query parameters (num1 and num2)
 Performs airthematic operations
 
 Logging System
--combined log
--error log
+
+-combined log:
+Stores all API requests
+
+-error log:
+Stores only errors
 
 Setting Up Git and Pushing to GitHub 
 git init
