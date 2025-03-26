@@ -44,3 +44,15 @@
 {"level":"info","message":"Division: 20 / 5 = 4","service":"calculator-microservice"}
 {"level":"info","message":"Request: GET /divide?num1=20&num2=0 from IP: ::1","service":"calculator-microservice"}
 {"level":"error","message":"Division by zero attempted","service":"calculator-microservice"}
+{"level":"info","message":"Request: GET / from IP: ::1","service":"calculator-microservice"}
+{"level":"info","message":"Request: GET / from IP: ::1","service":"calculator-microservice"}
+{"level":"info","message":"Request: GET /power?base=2&exponent=3 from IP: ::1","service":"calculator-microservice"}
+{"level":"info","message":"Exponentiation: 2 ^ 3 = 8","service":"calculator-microservice"}
+{"level":"info","message":"Request: GET /sqrt?number=25 from IP: ::1","service":"calculator-microservice"}
+{"level":"info","message":"Square Root: sqrt(25) = 5","service":"calculator-microservice"}
+{"level":"info","message":"Request: GET /modulo?dividend=10&divisor=3 from IP: ::1","service":"calculator-microservice"}
+{"level":"info","message":"Modulo: 10 % 3 = 1","service":"calculator-microservice"}
+{"level":"info","message":"Request: GET /sqrt?number=-9 from IP: ::1","service":"calculator-microservice"}
+{"level":"error","message":"Square root failed due to invalid input","service":"calculator-microservice"}
+{"level":"info","message":"Request: GET /modulo?dividend=10&divisor=0 from IP: ::1","service":"calculator-microservice"}
+{"level":"error","message":"Modulo by zero attempted","service":"calculator-microservice"}
