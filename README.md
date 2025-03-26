@@ -54,3 +54,24 @@ git push -u origin main
 
 
 This calculator microservice is built using Node.js, Express.js, and Winston for logging. It provides reliable logging, API validation, and structured code for scalability
+
+
+Credit Task explanations 
+
+This document provides a comprehensive guide on implementing additional arithmetic operations in a calculator microservice using Node.js and Express.js. The extended functionality includes exponentiation, square root, and modulo operations. It also details the error handling, logging, and GitHub submission process.
+
+
+1. Exponentiation (/power Endpoint)
+
+2. Square Root (/sqrt Endpoint)
+
+3. Modulo (/modulo Endpoint)
+
+
+Pushing the Changes to GitHub
+
+git add .
+
+git commit -m "Updated server.js with additional arithmetic operations"
+
+git push origin main
