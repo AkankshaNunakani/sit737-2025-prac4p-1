@@ -6,6 +6,7 @@ Project Structure
 • Install Express.js: npm install express
 
 sit737-2025-prac4p/
+
 │── logs/  # Directory for log files
 
 │   ├── combined.log        # Stores all API request logs
