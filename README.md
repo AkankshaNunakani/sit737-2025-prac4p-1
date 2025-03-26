@@ -16,3 +16,5 @@ Logging System
 Setting Up Git and Pushing to GitHub 
 
 Start the server 
+
+This calculator microservice is built using Node.js, Express.js, and Winston for logging. It provides reliable logging, API validation, and structured code for scalability
