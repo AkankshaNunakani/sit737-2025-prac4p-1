@@ -83,6 +83,44 @@ app.get('/divide', (req, res) => {
     res.json({ result });
 });
 
+// Additional Arithmetic Operations
+app.get('/power', (req, res) => {
+    const { base, exponent } = req.query;
+    if (!base || !exponent || isNaN(base) || isNaN(exponent)) {
+        logger.error("Exponentiation failed due to invalid inputs");
+        return res.status(400).json({ error: 'Invalid input parameters' });
+    }
+    const result = Math.pow(parseFloat(base), parseFloat(exponent));
+    logger.info(`Exponentiation: ${base} ^ ${exponent} = ${result}`);
+    res.json({ base, exponent, result });
+});
+
+app.get('/sqrt', (req, res) => {
+    const { number } = req.query;
+    if (!number || isNaN(number) || number < 0) {
+        logger.error("Square root failed due to invalid input");
+        return res.status(400).json({ error: 'Invalid input: Provide a non-negative number' });
+    }
+    const result = Math.sqrt(parseFloat(number));
+    logger.info(`Square Root: sqrt(${number}) = ${result}`);
+    res.json({ number, result });
+});
+
+app.get('/modulo', (req, res) => {
+    const { dividend, divisor } = req.query;
+    if (!dividend || !divisor || isNaN(dividend) || isNaN(divisor)) {
+        logger.error("Modulo operation failed due to invalid inputs");
+        return res.status(400).json({ error: 'Invalid input parameters' });
+    }
+    if (parseFloat(divisor) === 0) {
+        logger.error("Modulo by zero attempted");
+        return res.status(400).json({ error: 'Modulo by zero is not allowed' });
+    }
+    const result = parseFloat(dividend) % parseFloat(divisor);
+    logger.info(`Modulo: ${dividend} % ${divisor} = ${result}`);
+    res.json({ dividend, divisor, result });
+});
+
 // Start Server
 const PORT = 3000;
 app.listen(PORT, () => {

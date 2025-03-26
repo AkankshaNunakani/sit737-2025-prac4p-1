@@ -31,3 +31,16 @@
 {"level":"error","message":"Subtraction failed due to invalid inputs","service":"calculator-microservice"}
 {"level":"info","message":"Request: GET /subtract?num1=15&num2=5 from IP: ::1","service":"calculator-microservice"}
 {"level":"info","message":"Subtraction: 15 - 5 = 10","service":"calculator-microservice"}
+{"level":"info","message":"Request: GET /divide?num1=15&num2=5 from IP: ::1","service":"calculator-microservice"}
+{"level":"info","message":"Division: 15 / 5 = 3","service":"calculator-microservice"}
+{"level":"info","message":"Request: GET /add?num1=5&num2=3 from IP: ::1","service":"calculator-microservice"}
+{"level":"info","message":"Addition: 5 + 3 = 8","service":"calculator-microservice"}
+{"level":"info","message":"Request: GET /favicon.ico from IP: ::1","service":"calculator-microservice"}
+{"level":"info","message":"Request: GET /subtract?num1=10&num2=4 from IP: ::1","service":"calculator-microservice"}
+{"level":"info","message":"Subtraction: 10 - 4 = 6","service":"calculator-microservice"}
+{"level":"info","message":"Request: GET /multiply?num1=7&num2=2 from IP: ::1","service":"calculator-microservice"}
+{"level":"info","message":"Multiplication: 7 * 2 = 14","service":"calculator-microservice"}
+{"level":"info","message":"Request: GET /divide?num1=20&num2=5 from IP: ::1","service":"calculator-microservice"}
+{"level":"info","message":"Division: 20 / 5 = 4","service":"calculator-microservice"}
+{"level":"info","message":"Request: GET /divide?num1=20&num2=0 from IP: ::1","service":"calculator-microservice"}
+{"level":"error","message":"Division by zero attempted","service":"calculator-microservice"}
