@@ -6,11 +6,16 @@ Project Structure
 • Install Express.js: npm install express
 
 sit737-2025-prac4p/
-│── logs/                   # Directory for log files
+│── logs/  # Directory for log files
+
 │   ├── combined.log        # Stores all API request logs
+
 │   ├── error.log           # Stores only error logs
+
 │── package-lock.json           
+
 │── package.json            # Project dependencies & scripts
+
 │── server.js               # Main Express server file
 
 Start the server
