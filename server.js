@@ -109,7 +109,7 @@ app.get('/sqrt', (req, res) => {
 app.get('/modulo', (req, res) => {
     const { dividend, divisor } = req.query;
     if (!dividend || !divisor || isNaN(dividend) || isNaN(divisor)) {
-        logger.error("Modulo operation failed due to invalid inputs");
+        logger.error("Modulo operation failed");
         return res.status(400).json({ error: 'Invalid input parameters' });
     }
     if (parseFloat(divisor) === 0) {
