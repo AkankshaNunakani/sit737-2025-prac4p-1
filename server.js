@@ -47,7 +47,7 @@ app.get('/subtract', (req, res) => {
     const { num1, num2 } = req.query;
     const validationError = validateInputs(num1, num2);
     if (validationError) {
-        logger.error("Subtraction failed due to invalid inputs");
+        logger.error("Subtraction failed due to invalid input");
         return res.status(400).json(validationError);
     }
     const result = parseFloat(num1) - parseFloat(num2);
