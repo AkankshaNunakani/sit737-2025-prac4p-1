@@ -24,7 +24,7 @@ app.use((req, res, next) => {
 
 // Function to Validate Inputs
 const validateInputs = (num1, num2) => {
-    if (!num1 || !num2 || isNaN(num1) || isNaN(num2)) {
+    if (num1 === undefined || num2 === undefined || isNaN(num1) || isNaN(num2)) {
         return { error: "Invalid input parameters" };
     }
     return null;
