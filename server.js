@@ -99,7 +99,7 @@ app.get('/sqrt', (req, res) => {
     const { number } = req.query;
     if (!number || isNaN(number) || number < 0) {
         logger.error("Square root failed due to invalid input");
-        return res.status(400).json({ error: 'Invalid input: Provide a non-negative number' });
+        return res.status(400).json({ error: 'Invalid input: Provide a non-negative numbers' });
     }
     const result = Math.sqrt(parseFloat(number));
     logger.info(`Square Root: sqrt(${number}) = ${result}`);
